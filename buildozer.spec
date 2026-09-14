@@ -15,26 +15,19 @@ source.include_exts = py,png,jpg,kv,atlas
 # (str) Directory where the source files are located
 source.dir = .
 
+# (str) Application versioning (version number)
+version = 0.1
+
 # (list) Application requirements
-# comma separated e.g. requirements = sqlite3,kivy
 requirements = python3,flet
 
 # (str) Supported orientation (landscape, portrait, all)
 orientation = portrait
 
-# (list) List of exclusions
-source.exclude_exts = spec
-
-# (str) Icon of the application
-#icon.filename = %(source.dir)s/data/icon.png
-
-# (list) Permissions
-#android.permissions = INTERNET
-
-# (int) Target Android API, should be as high as possible.
+# (int) Target Android API
 android.api = 33
 
-# (int) Minimum API your APK will support.
+# (int) Minimum API your APK will support
 android.minapi = 21
 
 # (str) Android SDK version to use
